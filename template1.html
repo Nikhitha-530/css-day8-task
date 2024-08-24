@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cards</title>
+    <style>
+        *{
+            margin:0;
+        }
+         header{
+            background-color:white;
+            border: 1px;
+            position:fixed;
+            width: 100%;
+            z-index: 1;
+        } 
+         
+        .box{
+            display: grid;  
+            grid-template-columns: auto auto auto auto;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 120%;
+        }
+        .A{
+            text-align: center;
+            padding:1%;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+         .box1{
+            display: grid;
+            grid-template-columns: auto auto auto auto; 
+            font-size: 120%;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         }
+         
+         .box div{
+            padding: 10px;
+        }
+        .box1 div{
+            padding: 10px;
+        }
+        @media only screen and (width<600px){
+            .box{
+                grid-template-columns: auto;
+            }
+           .box1{
+            grid-template-columns: auto;
+           }
+        }
+        @media only screen and (width>600px) and (width<800px){
+            .box{
+                grid-template-columns: auto auto;
+            }
+            .box1{
+                grid-template-columns: auto auto;
+            }
+        }
+       
+
+ </style>
+</head>
+<body> 
+    <header>
+        <h1>
+            <div class="A">My Food</div>
+         </h1>
+    </header>
+        <div class="box">
+            <div >
+            <img src="https://www.w3schools.com/w3images/sandwich.jpg"width="250px" height="550px" >
+            <h2>The Perfect Sandwich, A<br> Real NYC Classic</h2>
+            <p>Just some random text, lorem ipsum text<br> praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div>
+                <img src="https://www.w3schools.com/w3images/steak.jpg"width="250px" height="550px">
+                <h2>Let Me Tell You About<br> This Steak</h2>
+                <p>Once again, some random text to lorem<br> lorem lorem lorem ipsum text praesent<br> tincidunt ipsum lipsum.</p>
+            </div>
+            <div>
+             <img src="https://www.w3schools.com/w3images/cherries.jpg" width="250px" height="550px">
+             <h2>Cherries, interrupted</h2>
+             <p>Lorem ipsum text praesent tincidunt<br> ipsum lipsum.
+              <br>
+              What else?</p>
+             </div>
+            <div>
+                <img src="https://www.w3schools.com/w3images/wine.jpg" width="250px" height="550px">
+                <h2>Once Again, Robust Wine<br> and Vegetable Pasta</h2>
+                <p>Lorem ipsum text praesent tincidunt<br> ipsum lipsum.</p>
+             </div>
+             </div>
+                    
+                    <br><br>
+                  <div class="box1">
+                    <div>
+                        <img src="https://www.w3schools.com/w3images/popsicle.jpg"width="270px" height="550px" >
+                        <h2>All I Need Is a Popsicle</h2>
+                        <p>Lorem ipsum text praesent tincidunt<br> ipsum lipsum.</p>
+                    </div>
+                    <div>
+                    <img src="https://www.w3schools.com/w3images/salmon.jpg"width="270px" height="550px" >
+                    <h2>Salmon For Your Skin</h2>
+                <p>Once again, some random text to lorem<br> lorem lorem lorem ipsum text praesent<br> tincidunt ipsum lipsum.</p>
+                
+                </div>
+                <div>
+                    <img src="https://www.w3schools.com/w3images/sandwich.jpg"width="270px" height="550px" >
+                    <h2>The Perfect Sandwich, A<br> Real Classic</h2>
+                <p>Just some random text, lorem ipsum text<br> praesent tincidunt ipsum lipsum.</p>
+                </div>
+                <div>
+                    <img src="https://www.w3schools.com/w3images/croissant.jpg"width="270px" height="550px" >
+                    <h2>Le French</h2>
+                    <p>Lorem lorem lorem lorem ipsum text<br> praesent tincidunt ipsum lipsum.</p>
+                </div>   
+            </div>
+            
+        
+    </body>
+</html>
